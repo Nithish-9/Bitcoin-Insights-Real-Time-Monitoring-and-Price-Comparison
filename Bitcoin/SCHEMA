@@ -1,0 +1,6 @@
+CREATE TABLE updateBitcoin(utime VARCHAR(255),rate DOUBLE);
+CREATE TABLE poundBitcoin(time VARCHAR(255),code VARCHAR(255),rate DOUBLE);
+CREATE TABLE euroBitcoin(time VARCHAR(255),code VARCHAR(255),rate DOUBLE);
+
+
+select AVG(rate) from poundBitcoin;
